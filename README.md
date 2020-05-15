@@ -1,7 +1,3 @@
-it would basically be i think part of the workflow of writing tests for codebases and then how to run them in a pipeline
-on argocd, tekton jenkins
-
-
 Cucumber Documentation for use in TSSC
 
 How will it work.
