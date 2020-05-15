@@ -77,6 +77,12 @@ assertEquals(expectedAnswer, actualAnswer);
 
 
 
+Running cucumber acceptance tests in a jenkins/argocd/tekton pipeline:
+
+Still currently working on figuring this out.
+
+
+
 
 
 
