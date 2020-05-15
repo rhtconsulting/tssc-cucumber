@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="hellocucumber.RunCucumberTest" time="0.077" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="hellocucumber.RunCucumberTest" time="0.115" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.el8_1.x86_64/jre/lib/amd64"/>
@@ -61,7 +61,10 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Is a given number even or odd" name="&quot;4&quot; is the chosen number" time="0.072"/>
-  <testcase classname="Is a given number even or odd" name="&quot;3&quot; is the chosen number" time="0.002"/>
-  <testcase classname="Is a given number even or odd" name="&quot;5.5&quot; is the chosen number" time="0.003"/>
+  <testcase classname="How many characters are in a string" name="cucumber is the string" time="0.102"/>
+  <testcase classname="How many characters are in a string" name="supercalifragilisticexpialidocious is the string" time="0.002"/>
+  <testcase classname="How many characters are in a string" name="&quot;&quot; is the string" time="0.002"/>
+  <testcase classname="Is a number even or odd" name="&quot;4&quot; is the number" time="0.003"/>
+  <testcase classname="Is a number even or odd" name="&quot;3&quot; is the number" time="0.003"/>
+  <testcase classname="Is a number even or odd" name="&quot;5.5&quot; is the number" time="0.003"/>
 </testsuite>

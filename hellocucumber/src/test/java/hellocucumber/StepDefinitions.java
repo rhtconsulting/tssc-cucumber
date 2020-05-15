@@ -20,26 +20,30 @@ private String actualAnswer;
 /**
  * Given for odd or even feature.
  */
-@Given("{string} is the chosen number")
+@Given("{string} is the number")
 public void odd_or_even(String str) {
 	value = str;
 }
 /**
  * When for odd or even feature.
  */
-@When("I ask whether the chosen number is odd or even")
+@When("I ask whether the number is odd or even")
 public void i_ask_whether_number_is_odd_or_even() {
 	actualAnswer = OddsEvens.oddOrEven(value);
 }
 
-
-
-@Given("{string} is the chosen string")
+/**
+ * Given for number of characters feature.
+ */
+@Given("{string} is the string")
 public void chosen_string(String str) {
 	value = str;
 }
 
-@When("I ask how many characters are in the given string")
+/**
+ * When for number of characters feature.
+ */
+@When("I ask how many characters are in the string")
 public void i_ask_how_many_chars_in_string() {
 	actualAnswer = NumChars.numChars(value);
 }

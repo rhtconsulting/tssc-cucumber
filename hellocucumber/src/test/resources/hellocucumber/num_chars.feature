@@ -1,17 +1,17 @@
-Feature: Is a given number even or odd
-	Everybody wants to know if a given number is even or odd.
+Feature: How many characters are in a string
+	Everybody wants to know how many characters are in a string
 
-Scenario: "4" is the chosen number
-	Given "4" is the chosen number
-	When I ask whether the chosen number is odd or even
-	Then I should be told "4 is an even number"
+Scenario: cucumber is the string
+	Given "cucumber" is the string
+	When I ask how many characters are in the string
+	Then I should be told "8"
 
-Scenario: "3" is the chosen number
-	Given "3" is the chosen number
-	When I ask whether the chosen number is odd or even
-	Then I should be told "3 is an odd number"
+Scenario: supercalifragilisticexpialidocious is the string
+	Given "supercalifragilisticexpialidocious" is the string
+	When I ask how many characters are in the string
+	Then I should be told "34"
 
-Scenario: "5.5" is the chosen number
-	Given "5.5" is the chosen number
-	When I ask whether the chosen number is odd or even
-	Then I should be told "The provided String was not a valid integer."
+Scenario: "" is the string
+	Given "" is the string
+	When I ask how many characters are in the string
+	Then I should be told "An empty string was provided."
